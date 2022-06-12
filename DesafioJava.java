@@ -15,7 +15,7 @@ public class DesafioJava {
 				valorBrutoV = 0, valorComImpostoV = 0, lucroV = 0;
 		char categoria;
 		
-		while(contador <= 3) {
+		while(contador <= 15) {
 			System.out.println("Digite o preço do produto: ");
 			double preco = sc.nextDouble();
 			
@@ -46,7 +46,6 @@ public class DesafioJava {
 						+ "um dos valores acima ");
 				contador--;
 			}
-			System.out.println(contador);
 			contador++;
 		}
 		System.out.printf("\nC: Valor bruto: %.2f, valor com imposto: %.2f, lucro: %.2f.",valorBrutoC,valorComImpostoC,lucroC);
